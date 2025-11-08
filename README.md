@@ -1,4 +1,6 @@
-# protocols-cheatsheet
+# ![StarTrekStarTrekTosGIF](https://github.com/user-attachments/assets/98d68d93-ce8a-49f2-b794-b20bfda30c84)
+# ![EnginTf2GIF](https://github.com/user-attachments/assets/ad398162-c944-4d08-80c1-98999d167bb0)
+# 👨🏽‍🔬 protocols-cheatsheet
 # On-Chip Protocols Overview
 
 ## High-Level Summary
