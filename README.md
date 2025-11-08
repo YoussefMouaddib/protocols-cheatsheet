@@ -1,6 +1,5 @@
 # ![StarTrekStarTrekTosGIF](https://github.com/user-attachments/assets/98d68d93-ce8a-49f2-b794-b20bfda30c84)
-# 👨🏽‍🔬 
-# Network & Bus Protocol Notes
+# 👨🏽‍🔬 Network & Bus Protocol Notes
 
 ## Ethernet PHY Interfaces
 
