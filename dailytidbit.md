@@ -1,0 +1,3 @@
+## daily TidBits: ##
+Auto-Negotiation — It's the PHY
+The PHY handles auto-negotiation — it's a physical layer process happening over the wire using Fast Link Pulses before any Ethernet frames exist. The MAC has no visibility into the wire. The MAC talks to the PHY at runtime over MDIO (Management Data Input/Output), a 2-wire serial interface (MDC clock + MDIO data). The register space is called the MII Management Register Set — standardized registers at addresses 0–31, where register 0 is control, register 1 is status, and you can read link speed, duplex, link up/down from there. Every PHY chip exposes this.
