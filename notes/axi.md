@@ -93,13 +93,13 @@ All this happens in parallel on different physical wires.
 ## 3. Timeline Visualization
 Time -->
 --------------------------------------------------------------------------------
-AR0: [Addr0]-----> (waiting for chip 0)
-AR1:          [Addr1]-----> (chip 1 faster)
-R1:                          [Data1]-----> (out-of-order: completes first!)
-R0:                                     [Data0]----->
-AW0:                                           [Addr0']----->
-W0:                                               [Data0']----->
-B0:                                                              [Resp]----->
+AR0: [Addr0]-----> (waiting for chip 0)  
+AR1:-----------[Addr1]-----> (chip 1 faster)  
+R1:------------------------[Data1]-----> (out-of-order: completes first!)  
+R0:-----------------------------------------[Data0]----->  
+AW0:---------------------------------------------[Addr0']----->  
+W0:--------------------------------------------------[Data0']----->  
+B0:------------------------------------------------------[Resp]----->  
 
 ---
 
