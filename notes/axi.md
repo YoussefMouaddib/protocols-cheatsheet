@@ -220,10 +220,10 @@ Handle ID reordering carefully to prevent data corruption
 ---------------------------------------[Flash Controller Logic]  
 -------------------------------------(with sync FIFOs, dual-flops)  
 ------------------------------------------------|  
-.................... +-------------+-------------+-------------+  
-.....................|             |             |             |  
-................. [Chip 0]       [Chip 1]       [Chip 2]       [Chip 3]  
-..................(async)        (async)        (async)        (async)   
+-------------------- +-------------+-------------+-------------+  
+---------------------|             |             |             |  
+-----------------[Chip 0]       [Chip 1]       [Chip 2]       [Chip 3]  
+------------------(async)        (async)        (async)        (async)   
 The AXI bus is shared. The flash controller handles:  
 
 Clock domain crossing (AXI clock → flash clocks)
